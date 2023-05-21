@@ -131,3 +131,5 @@ out
 
 .DS_Store
 /.idea/
+/examples/
+demo.html
