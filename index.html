@@ -78,20 +78,20 @@
                   Next.js
                   <ul style="font-size: 22px">
                     <li>SEO-оптимизация</li>
-                    <li>встроенный маршрутизатор</li>
+                    <li>Встроенный маршрутизатор</li>
                   </ul>
                 </li>
                 <li style="margin-bottom: 10px">
                   CSS-modules
                   <ul style="font-size: 22px">
-                    <li>модульность</li>
+                    <li>Модульность</li>
                   </ul>
                 </li>
                 <li style="margin-bottom: 10px">
                   Typescript
                   <ul style="font-size: 22px">
                     <li>
-                      облегчает контроль над изменениями в структуре объектов
+                      Облегчает контроль над изменениями в структуре объектов
                     </li>
                   </ul>
                 </li>
@@ -99,7 +99,7 @@
                   Tremor
                   <ul style="font-size: 22px">
                     <li>
-                      визуализация данных без привязки к конкретным платформам
+                      Визуализация данных без привязки к конкретным платформам
                     </li>
                   </ul>
                 </li>
@@ -123,34 +123,59 @@
             </div>
           </section>
           <section data-auto-animate style="height: 100vh">
-            <div>
-              <div
-                style="
-                  display: flex !important;
-                  justify-content: space-between;
-                  align-items: center;
-                  height: 100vh;
-                "
-              >
-                <h3 data-id="backend-title" align="left">Сервер</h3>
-                <img src="images/server.jpg" alt="Лучший сервер" />
-              </div>
+            <img class="r-stretch" src="images/server.jpg" alt="Лучший сервер"/>
+            <div
+                     data-id="backend-block"
+              style="
+                position: absolute;
+                width: 25%;
+                top: 0;
+                right: 0;
+                box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5),
+                  0 5px 25px rgba(0, 0, 0, 0.2);
+                background-color: rgba(0, 0, 0, 0.9);
+                color: #fff;
+                padding: 20px;
+                /*font-size: 20px;*/
+                text-align: left;
+              "
+             >
+              <h3 data-id="backend-title">Сервер</h3>
+            </div>
+
+          </section>
+          <section data-auto-animate data-background="images/database_bg.png">
+             <div
+                     data-id="backend-block"
+              style="
+                position: absolute;
+                width: 35%;
+                top: 0;
+                right: 0;
+                box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5),
+                  0 5px 25px rgba(0, 0, 0, 0.2);
+                background-color: rgba(0, 0, 0, 0.9);
+                color: #fff;
+                padding: 20px;
+                /*font-size: 20px;*/
+                text-align: left;
+              "
+             >
+              <h3 data-id="backend-title">База данных</h3>
             </div>
           </section>
           <section data-auto-animate>
-            <h3 data-id="backend-title" align="left">База данных</h3>
-            <img
-              align="left"
-              src="images/database.png"
-              alt="Лучшая база данных"
-            />
-          </section>
-          <section data-auto-animate>
             <h3 data-id="backend-title" align="left">Тестирование</h3>
+            <div align="left">
+              <ul>
+                <li>Postman</li>
+                <li>Unit-тестирование</li>
+              </ul>
+            </div>
           </section>
           <section
             data-preload
-            data-background-iframe="http://217.197.0.155/swagger-ui/index.html"
+            data-background-iframe="http://217.197.0.155/data/swagger-ui/index.html"
           >
             <div
               style="
@@ -179,13 +204,85 @@
           <section>
             <h2 data-id="analytics-title">Аналитика & поддержка</h2>
           </section>
-          <section data-auto-animate>
-            <h2 data-id="analytics-title">Аналитика & поддержка</h2>
-            <p>Они делали, делали, и наконец все сделали</p>
+          <section data-auto-animate data-background="images/throughput.png">
+             <div
+                     data-id="frontend-block"
+              style="
+                position: absolute;
+                width: 35%;
+                right: 0;
+                box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5),
+                  0 5px 25px rgba(0, 0, 0, 0.2);
+                background-color: rgba(0, 0, 0, 0.9);
+                color: #fff;
+                padding: 20px;
+                font-size: 20px;
+                text-align: left;
+              "
+             >
+              <h3 data-id="frontend-title">Throughput<br>(пропускная способность)</h3>
+            </div>
+          </section>
+          <section data-background="images/cumulative-flow.png">
+             <div
+                     data-id="frontend-block"
+              style="
+                position: absolute;
+                width: 35%;
+                right: 0;
+                box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5),
+                  0 5px 25px rgba(0, 0, 0, 0.2);
+                background-color: rgba(0, 0, 0, 0.9);
+                color: #fff;
+                padding: 20px;
+                font-size: 20px;
+                text-align: left;
+              "
+             >
+              <h3 data-id="frontend-title">Cumulative Flow Diagram<br>(накопительная диаграмма потока)</h3>
+            </div>
+          </section>
+          <section data-background="images/burndown-chart.png">
+             <div
+                     data-id="frontend-block"
+              style="
+                position: absolute;
+                width: 35%;
+                right: 0;
+                box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5),
+                  0 5px 25px rgba(0, 0, 0, 0.2);
+                background-color: rgba(0, 0, 0, 0.9);
+                color: #fff;
+                padding: 20px;
+                font-size: 20px;
+                text-align: left;
+              "
+             >
+              <h3 data-id="frontend-title">Burndown Chart<br>(диаграмма сгорания)</h3>
+            </div>
+          </section>
+          <section data-background="images/velocity-chart.png">
+             <div
+                     data-id="frontend-block"
+              style="
+                position: absolute;
+                width: 35%;
+                left: 0;
+                box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5),
+                  0 5px 25px rgba(0, 0, 0, 0.2);
+                background-color: rgba(0, 0, 0, 0.9);
+                color: #fff;
+                padding: 20px;
+                font-size: 20px;
+                text-align: left;
+              "
+             >
+              <h3 data-id="frontend-title">Velocity Chart<br>(график скорости команды)</h3>
+            </div>
           </section>
         </section>
         <section>
-          <div style="height: 85vh; display: flex; justify-content: center; align-items: flex-end; margin-bottom: 100px">
+          <div style="height: 85vh; display: flex; justify-content: center; align-items: flex-end; margin-bottom: 200px">
             <small>Санкт-Петербург, 2023</small>
           </div>
         </section>
