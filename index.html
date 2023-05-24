@@ -28,24 +28,7 @@
         </section>
         <section>
           <section>
-            <p style="font-size: 20px; margin-bottom: 20px">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-              eveniet dignissimos provident sint nam distinctio nesciunt vitae a
-              ipsam libero officiis ipsa, debitis quasi sed perspiciatis
-              repellendus rerum odit sequi!
-            </p>
-            <p style="font-size: 20px; margin-bottom: 20px">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-              eveniet dignissimos provident sint nam distinctio nesciunt vitae a
-              ipsam libero officiis ipsa, debitis quasi sed perspiciatis
-              repellendus rerum odit sequi!
-            </p>
-            <p style="font-size: 20px">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-              eveniet dignissimos provident sint nam distinctio nesciunt vitae a
-              ipsam libero officiis ipsa, debitis quasi sed perspiciatis
-              repellendus rerum odit sequi!
-            </p>
+            <h2>Что представляет наш проект?</h2>
           </section>
         </section>
         <section>
@@ -122,27 +105,31 @@
               </ul>
             </div>
           </section>
-          <section data-auto-animate style="height: 100vh">
-            <img class="r-stretch" src="images/server.jpg" alt="Лучший сервер"/>
+          <section
+            data-preload
+            data-background-iframe="http://217.197.0.155/data/swagger-ui/index.html"
+          >
             <div
-                     data-id="backend-block"
               style="
                 position: absolute;
-                width: 25%;
-                top: 0;
+                width: 35%;
                 right: 0;
                 box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5),
                   0 5px 25px rgba(0, 0, 0, 0.2);
                 background-color: rgba(0, 0, 0, 0.9);
                 color: #fff;
                 padding: 20px;
-                /*font-size: 20px;*/
+                font-size: 20px;
                 text-align: left;
               "
-             >
-              <h3 data-id="backend-title">Сервер</h3>
+            >
+              <h3 data-id="backend-title" align="left">Документация</h3>
+              <p>
+                Поближе с документацией запросов можно ознакомиться, перейдя по
+                ссылке:
+              </p>
+              <img align="center" src="images/swagger-qr.png" alt="А где?" />
             </div>
-
           </section>
           <section data-auto-animate data-background="images/database_bg.png">
              <div
@@ -186,31 +173,27 @@
               </ul>
             </div>
           </section>
-          <section
-            data-preload
-            data-background-iframe="http://217.197.0.155/data/swagger-ui/index.html"
-          >
+          <section data-auto-animate style="height: 100vh">
+            <img class="r-stretch" src="images/server.jpg" alt="Лучший сервер"/>
             <div
+                     data-id="backend-block"
               style="
                 position: absolute;
-                width: 35%;
+                width: 25%;
+                top: 0;
                 right: 0;
                 box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5),
                   0 5px 25px rgba(0, 0, 0, 0.2);
                 background-color: rgba(0, 0, 0, 0.9);
                 color: #fff;
                 padding: 20px;
-                font-size: 20px;
+                /*font-size: 20px;*/
                 text-align: left;
               "
-            >
-              <h3 data-id="backend-title" align="left">Документация</h3>
-              <p>
-                Поближе с документацией запросов можно ознакомиться, перейдя по
-                ссылке:
-              </p>
-              <img align="center" src="images/swagger-qr.png" alt="А где?" />
+             >
+              <h3 data-id="backend-title">Сервер</h3>
             </div>
+
           </section>
         </section>
         <section>
